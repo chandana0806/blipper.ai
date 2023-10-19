@@ -1,0 +1,26 @@
+Keyword Detection prototpe Documentation:
+
+
+Objective:
+This research documentation is a practical demonstration of keyword detection for a voice-based conversation using Python. 
+Libraries Used:
+The following Python libraries were utilized in this project:
+- `speech_recognition`: This library was used for audio processing and speech recognition. It allows you to work with audio data and convert it into text.
+- `PyAudio`: This library is commonly used for audio input/output and was likely the intended library, as "condaaudio" is not widely recognized.
+
+Code Description:
+The provided Python code demonstrates keyword detection in an audio file using the `speech_recognition` library along with `PyAudio`. Here's a breakdown of the code:
+
+1. Importing the required libraries, including `speech_recognition` and `PyAudio`.
+2. Initializing the `speech_recognition` recognizer.
+3. Loading an audio file named 'speech_file.flac'.
+4. Using the recognizer to listen to the audio and attempt speech recognition using Google's speech recognition service.
+5. If recognition is successful, the recognized text is printed.
+6. Punctuation removal and text conversion to lowercase are performed.
+7. The text is split into words, and the frequency of each word is counted.
+8. Finally, the word frequencies are printed.
+
+This code provides an example of how to transcribe speech from an audio file and perform basic text analysis on the transcribed text.
+
+Conclusion:
+This project offers practical experience in working with audio data and text processing using Python. It can be a valuable learning resource for  students, especially those interested in natural language processing and speech recognition.
